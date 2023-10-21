@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell/Hp Tray</title>
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--goggle font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+
+</head>
+<body>
+    
+    
+                <section class="header1" id="top">
+                    <nav id="homepage">
+                        <a href=""><img src="../Images/logo.jpeg" alt="" height="70px" width="300px"></a>
+                        <div class="nav-links" id="navLinks">
+                            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="../pages/index.html">HOME</a></li>
+                                <li><a href="../pages/about.html">ABOUT</a></li>
+                                <li><a href="../pages/service.html">SERVICES</a></li>
+                                <li><a href="../pages/product.html">PRODUCTS</a></li>
+                                <li><a href="../pages/team.html">TEAM</a></li>
+                                <li><a href="../pages/mission.html">MISSION</a></li>
+                                <li><a href="../pages/vision.html">VISION</a></li>
+                                <li><a href="../pages/contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                    </nav>
+                </section>
+ 
+ <!---our product-->
+ <section class="product" id="product">
+    <div>
+        <h1 style="color: #000080;" id="a">Dell/Hp Tray</h1>
+    
+    <div class="product-item" >
+        <div class="product-box" >
+            <img src="../Images/tray1.jpg">
+            <h3>DELL R740 HEATSINK</h3>
+                <a href="#">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray2.jpg" alt="">
+            <h3 >DELL 2.5"/3.5" R730/R430 TRAY</h3>
+                <a href="#">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+        
+
+        <div class="product-box">
+            <img src="../Images/tray3.jpg" alt="">
+            <h3>DELL 3.5" R740/R440 TRAY</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray4.jpg" alt="">
+            <h3>HP 2.5" TRAY G7/8/9</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray5.jpg" alt="" style="width: 250px;">
+            <h3>HP 3.5" TRAY G7/ G8/G9/</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray6.jpg" alt="">
+            <h3>HP 3.5" TRAY G10</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray7.jpg" alt="">
+            <h3>HP EXTERNAL DVDRW</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+
+
+        <div class="product-box">
+            <img src="../Images/tray8.jpg" alt="">
+            <h3>DL 380 G9/10 FAN</h3>
+                <a href="#a">
+                    <button class="button">Available</button>
+                </a>
+        </div>
+    </div>
+    </div>
+</section> 
+
+
+<!--Javascript for Toggle Menu-->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+</script>
+</body>
+</html>

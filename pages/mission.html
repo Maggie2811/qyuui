@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission</title>
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--goggle font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+
+</head>
+<body>
+    
+    <style>
+        .header{
+            background-image: url(../Images/try8.avif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+                <section class="header" id="top">
+                    <nav id="homepage">
+                        <a href=""><img src="../Images/logo.jpeg" alt="" height="70px" width="300px"></a>
+                        <div class="nav-links" id="navLinks">
+                            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="../pages/index.html">HOME</a></li>
+                                <li><a href="../pages/about.html">ABOUT</a></li>
+                                <li><a href="../pages/service.html">SERVICES</a></li>
+                                <li><a href="../pages/product.html">PRODUCTS</a></li>
+                                <li><a href="../pages/team.html">TEAM</a></li>
+                                <li><a href="../pages/mission.html">MISSION</a></li>
+                                <li><a href="../pages/vision.html">VISION</a></li>
+                                <li><a href="../pages/contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                    </nav>
+                    <div class="text-box">
+                        <h1>Get Your Server Here</h1>
+                        <p>
+                            YOU HAVE A VISION. WE HAVE A TEAM TO GET YOU THERE
+                        </p>
+                        <a href="../pages/product.html" class="hero-btn">GET STARTED</a>
+                    </div>
+                </section>
+   <!--Our Mission-->
+   <section class="mission" id="mission">
+    <h1 style="color: #000080;">Our Mission</h1>
+    <div class="row">
+        <div class="mission-col" id="b">
+            <p>
+                Infobyte International Concept Limited is Customer centric. IT sales and service company 
+                on a mission to provide and equip organisations with the right technology to achieve their full 
+                potential
+            </p>
+    
+         <a href="#b">
+             <button class="button">Read More</button>
+         </a>
+        </div>
+        <div class="mission-col">
+            <img src="../Images/Database.avif" alt="" width="450px" style="margin-top: -50px;" >
+            
+        </div>
+    </div>
+</section>
+
+                    <!--footer-->
+                    <footer>
+                        <div class="row">
+                            <div class="colu">
+                                <img src="../Images/Web_capture_20-9-2023_101611_-removebg-preview.png" alt="" class="logo" width="50px">
+                                <p>
+                                    Infobyte International Concept Limited is a leading brand in sales and support services of 
+                                    enterprise servers and accessories.
+                                </p>
+                            </div>
+                            <div class="colu">
+                                <h3>Contact info <div class="underline"><span></span></div> </h3>
+                                <p>5a simbiat Abiola way</p>
+                                <p>Ikeja, Lagos</p>
+                                <p>PIN 100282, Nigeria</p>
+                                <p class="email-idd">salessupport@infobyte.com.ng</p>
+                                <h4>+234-8036802411, 234-8083286685, 08053908210 </h4>
+                            </div>
+                            <div class="colu">
+                                <h3>Quick Links <div class="underline"><span></span></div></h3>
+                                <ul>
+                                    <li><a href="../pages/index.html">Home</a></li>
+                                    <li><a href="../pages/about.html">About Us</a></li>
+                                    <li><a href="../pages/service.html">Services</a></li>
+                                    <li><a href="../pages/product.html">Products</a></li>
+                                    <li><a href="../pages/mission.html">Our Mission</a></li>
+                                </ul>
+                            </div>
+                            <div class="colu">
+                                <h3>Newsletter <div class="underline"><span></span></div> </h3>
+                                <form action="">
+                                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                                    <input type="email" placeholder="Enter your email id" required>
+                                    <button typ="submit"><i class="fas fa-arrow-right"></i></button>
+                                </form>
+                                <div class="socialmedia-icons">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="copyright">©2023 - All Rights Reserved</p>
+                    </footer>   
+                
+              
+    <!--Javascript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
+
